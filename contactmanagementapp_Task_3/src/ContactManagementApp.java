@@ -1,4 +1,4 @@
-package contactmanagementapp;
+package contactmanagementapp_tasks_3;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class ContactManagementApp{
