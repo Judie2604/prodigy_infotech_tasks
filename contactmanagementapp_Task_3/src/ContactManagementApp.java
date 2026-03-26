@@ -71,7 +71,7 @@ public class ContactManagementApp {
             String line;
 
             while((line = br.readLine()) != null){
-                String[] data = line.split(",");
+                String[] data = line.split(",");2
                 Contact c = new Contact();
                 c.name = data[0];
                 c.email = data[1];
@@ -230,7 +230,7 @@ public class ContactManagementApp {
         Scanner sc = new Scanner(System.in);
         ArrayList<Contact> contacts = new ArrayList<>();
         loadContacts(contacts);
-        System.out.println("WELCOME TO CONTACTS MANAGEMENT APP");
+        System.out.println("=======CONTACTS MANAGEMENT APP========");
 
         boolean isRunning = true;
 
